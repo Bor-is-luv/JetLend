@@ -52,8 +52,8 @@ class Qualification(models.Model):
     already_qualified = models.BooleanField('Уже квалифицирован инвестиционной платформой')
 
     class Meta:
-        verbose_name = 'Квалифмкация'
-        verbose_name = 'Квалифмкация'
+        verbose_name = 'Квалификация'
+        verbose_name = 'Квалификация'
 
     def __str__(self):
         return f'Квалификация {self.user.__str__()}'
