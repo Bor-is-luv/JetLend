@@ -35,6 +35,7 @@ class Rules(models.Model):
 
     class Meta:
         verbose_name = 'Правила'
+        verbose_name_plural = 'Правила'
 
     def __str__(self):
         return f'Правила {self.user.__str__()}'
@@ -51,6 +52,7 @@ class Qualification(models.Model):
     already_qualified = models.BooleanField('Уже квалифицирован инвестиционной платформой')
 
     class Meta:
+        verbose_name = 'Квалифмкация'
         verbose_name = 'Квалифмкация'
 
     def __str__(self):
